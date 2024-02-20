@@ -1,0 +1,89 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "Adoption",
+    "dateExported": "2024-02-20T23:06:40.579Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "6fe39b3d-49ff-4b41-808e-3f5d64e6ad2c",
+            "colId": "8d83eb58-c5aa-45e4-a711-8b7679a08603",
+            "containerId": "",
+            "name": "newAnimal",
+            "url": "http://localhost:3000/api/animales",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2024-02-20T19:41:58.523Z",
+            "modified": "2024-02-20T23:04:51.268Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"typeAnimal\": \"gato\",\n  \"AnimalMeal\": \"croquettes\",\n  \"numCasiller\": \"4\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "76d22449-b619-40d8-8d83-810f2830e57e",
+            "colId": "8d83eb58-c5aa-45e4-a711-8b7679a08603",
+            "containerId": "",
+            "name": "getAnimal",
+            "url": "http://localhost:3000/api/animales/65d53013d09f1f057ba61240",
+            "method": "GET",
+            "sortNum": 7500,
+            "created": "2024-02-20T22:17:27.392Z",
+            "modified": "2024-02-20T23:05:01.892Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ea754ed6-3c9a-4f4f-94fe-749f4fe6b51a",
+            "colId": "8d83eb58-c5aa-45e4-a711-8b7679a08603",
+            "containerId": "",
+            "name": "updateAnimal",
+            "url": "http://localhost:3000/api/animales/65d53013d09f1f057ba61240",
+            "method": "PUT",
+            "sortNum": 10000,
+            "created": "2024-02-20T20:16:10.065Z",
+            "modified": "2024-02-20T23:05:32.439Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nameAnimal\": \"gatos\",\n  \"AdoptionStatus\": \"true\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "adc04c26-54d4-4cc8-911c-55b2269f7192",
+            "colId": "8d83eb58-c5aa-45e4-a711-8b7679a08603",
+            "containerId": "",
+            "name": "getAnimalAll",
+            "url": "http://localhost:3000/api/animales",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-02-20T22:46:12.164Z",
+            "modified": "2024-02-20T22:46:36.432Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4e9bdc3b-795d-4e7b-8cad-46bd6e4d6d07",
+            "colId": "8d83eb58-c5aa-45e4-a711-8b7679a08603",
+            "containerId": "",
+            "name": "DeleteAnimal",
+            "url": "http://localhost:3000/api/animales/65d53013d09f1f057ba61240",
+            "method": "DELETE",
+            "sortNum": 70000,
+            "created": "2024-02-20T22:51:03.705Z",
+            "modified": "2024-02-20T23:05:52.574Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "user",
+    "dateExported": "2024-02-20T23:07:41.287Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1dc37a8f-36e5-42ee-aa80-cd12c817b5df",
+            "colId": "63c98764-01c5-4531-bc22-bd2e1e8193d6",
+            "containerId": "",
+            "name": "userPost",
+            "url": "http://localhost:3000/api/usuarios",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-02-20T19:01:50.636Z",
+            "modified": "2024-02-20T19:19:10.338Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"gerson chuquiej2\",\n  \"password\": \"123456789\",\n  \"correo\": \"gchuquiej-20222732@kinal.edu.gt\",\n  \"role\": \"USER_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "cf78237e-cdb3-41c1-8346-b82745703812",
+            "colId": "63c98764-01c5-4531-bc22-bd2e1e8193d6",
+            "containerId": "",
+            "name": "userDelete",
+            "url": "http://localhost:3000/api/usuarios/65d4fb2ef2149a81d8a58845",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2024-02-20T19:16:29.726Z",
+            "modified": "2024-02-20T19:23:41.274Z",
+            "headers": [
+                {
+                    "name": "65c3fb31da29f07fe71ecbea",
+                    "value": ""
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "d83e9339-b9d1-4f43-9aaf-c169893ff0a5",
+            "colId": "63c98764-01c5-4531-bc22-bd2e1e8193d6",
+            "containerId": "",
+            "name": "userGet",
+            "url": "http://localhost:3000/api/usuarios/65d4f9f7f2149a81d8a5883e",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-02-20T19:24:33.369Z",
+            "modified": "2024-02-20T19:25:27.414Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "f94d186f-329d-4775-990a-e865ac79f037",
+            "colId": "63c98764-01c5-4531-bc22-bd2e1e8193d6",
+            "containerId": "",
+            "name": "userPut",
+            "url": "http://localhost:3000/api/usuarios/65c3fb1eda29f07fe71ecbda",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-02-20T19:26:09.693Z",
+            "modified": "2024-02-20T19:35:36.224Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"nombre\": \"herlin\",\n  \"correo\": \"herlin@gmail.com\",\n  \"role\": \"USER_ROLE\"\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
